@@ -1,7 +1,224 @@
-*{
-    margin:0;
-    padding:0;
+/* здесь общие стили для всех размеров экрана - шрифты и цвета */
+.online-course{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
 }
+.hours{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;  
+}
+.date{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+}
+h1{ 
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;  
+    color: #000000;
+}
+.description{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+}
+.blue{
+    background: #1E4681;
+    color:#FFFFFF;
+}
+.blue p{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+}
+.blue span{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+.course{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    color: #000000;
+}
+.text-block-one{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+}
+.tt {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    color: #000000;
+}
+.tt h4{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    color: #000000;
+}
+.tt p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+}
+.about{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+}
+.forma{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    color: #000000;   
+}
+.format-lessons{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    color: #000000;
+}
+.format-lessons span{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    color: #1E4681;
+}
+.format-lessons p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+}
+.whats-new{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    color: #000000;
+}
+.list{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+}
+.programs{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    color: #000000;
+}
+.card {
+    background: #FFFFFF;
+}
+.ui {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    color: #000000;
+}
+.uii{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    color: #000000;
+}
+.uu, .uuu{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+}
+.person{
+    background: #EFEFEF;
+}
+.persons{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    color: #000000;
+}
+.block-person{
+    background: #FFFFFF;
+}
+.feedback{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+}
+.Ekaterina{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    color: #000000;
+}
+.money{
+    background: #9DC9C8;
+}
+.money h2{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    color: #000000;
+}
+.price{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+}
+.count{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+}
+.big-text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+}
+.small-text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+}
+footer {
+    background-color: black;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+.logotip{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+
+  /* начало верстки для мобильного телефона */
+@media (min-width:320px) and (max-width: 991px) {
+  
+*{
+        margin:0;
+        padding:0;
+    }
 header{
     height:100px;
 }
@@ -34,12 +251,8 @@ header{
     height: 14.91px;
     left: 46.9px;
     top: 114.35px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 10px;
     line-height: 115%;
-    color: #000000;
 }
 .clock{
     position: absolute;
@@ -53,13 +266,9 @@ header{
     width: 60.58px;
     height: 14.91px;
     left: 134.12px;
-    top: 113.35px;   
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
+    top: 113.35px;     
     font-size: 10px;
     line-height: 115%;
-    color: #000000;  
 }
 .calendar{
     position: absolute;
@@ -74,39 +283,26 @@ header{
     height: 14.91px;
     left: 209.6px;
     top: 113.35px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 10px;
     line-height: 115%;
-    color: #000000;
 }
 .second{
     height: 500px;
 }
 h1{
     width: 292.63px;
-    height: 88.53px;
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: bold;
+    height: 88.53px;    
     font-size: 37px;
     line-height: 101.38%; 
-    color: #000000;
-
 }
 .description{
     position: absolute;
     width: 212.4px;
     height: 28.96px;
     left: 34.74px;
-    top: 228.07px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
+    top: 228.07px;   
     font-size: 10px;
     line-height: 150%;
-    color: #000000;
 }
 .noroot{
     position: absolute;
@@ -120,57 +316,37 @@ h1{
     width: 225.36px; 
     height: 93.19px; 
     left: 35.98px; 
-    top: 469.75px; 
-    background: #1E4681;
-    border-radius: 2.32986px;
-    color:#FFFFFF;
+    top: 469.75px;   
+    border-radius: 2.32986px; 
 }
 .blue div{
-
     width: 200.64px;
     height: 52.65px;
     margin: 10px 0 0 12.13px;
 }
 .blue p{
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: normal;
     font-size: 11px;
     line-height: 130%;
 }
-
 .blue span{
-    /* Андрей Тарковский */
     width: 130.7px;
-    height: 21.27px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
+    height: 21.27px;   
     font-size: 10px;
     line-height: 130%;
-    margin-left: 125px ; 
-    color: #FFFFFF;
+    margin-left: 125px; 
     }
 .course{
-    height: 43.34px;
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: bold;
+    height: 43.34px;  
     font-size: 26px;
     line-height: 101.38%;
-    color: #000000;
 }
 .text-block-one{
     width: 308.47px;
     height: 225px;
     padding-top:9px;
-    padding-left:1px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
+    padding-left:1px; 
     font-size: 12px;
     line-height: 153%;
-    color: #000000;
     box-sizing: border-box;
 }
 .text-block-one p:first-child{
@@ -181,16 +357,11 @@ h1{
     margin-left: 67px;
     margin-top: 15px;
     }
-
 .tt {
     width: 250px;
-    height:140px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
+    height:140px;   
     font-size: 12px;
     line-height: 130%;
-    color: #000000;
     display:flex;
     flex-wrap: wrap;
     margin-top: 42px;
@@ -203,78 +374,45 @@ h1{
     width: 86px;
     padding-right:33px;
 }
-
-.tt h4{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
+.tt h4{  
     font-size: 12px;
     line-height: 130%;
-     color: #000000;
 }
 .tt p{
     width: 86px;
     height: 18px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 10px;
     line-height: 130%;
     margin-top:5px;
 }
-
 .about{
     position: absolute;
     width: 308.47px;
     height: 174.27px;
     left: 36px;
-    top: 687.72px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
+    top: 687.72px;   
     font-size: 12px;
     line-height: 150%;
-    color: #000000;
 }
-
 .forma{
-    height: 43.34px;
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: bold;
+    height: 43.34px;    
     font-size: 26px;
-    line-height: 101.38%;   
-    color: #000000;      
+    line-height: 101.38%;      
 }
-
 .format-lessons{
-    height: 300px;
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: bold;
+    height: 300px; 
     font-size: 26px;
     line-height: 101.38%;
-    color: #000000;
-
 }
 .format-lessons div{
     margin-bottom: 20px;
     margin-top: 6px;
 }
-
 .format-lessons span{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
     font-size: 12px;
-    line-height: 130%;  
-    color: #1E4681;
- 
+    line-height: 130%;   
 }
-.format-lessons p{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
+.format-lessons p{  
     font-size: 10px;
     line-height: 130%;
     margin-top: 5px;   
@@ -287,57 +425,41 @@ h1{
 }
 .whats-new{
     width: 310.8px;
-    height: 53px;
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: bold;
+    height: 53px; 
     font-size: 26px;
     line-height: 101.38%;
-    color: #000000;
 }
 .list{
     width: 292px;
     height: 204px;
     margin-left:15px;
     margin-bottom: 55px;
-    font-size: 12px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
+    font-size: 12px;   
     line-height: 18.2px;
-    color: #000000;
 }
-.list li {    
+.list li{    
     text-indent: -6px;
 }
 .programs{
     width: 421.7px;
     height: 43.34px;
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: bold;
     font-size: 26px;
     line-height: 101.38%;
-    color: #000000;
     }
-
 .painters {
     margin-top: 35px;
     margin-left: 60px;
     display: flex;
     flex-wrap: wrap;
     flex-direction:column;
-    }
-    
+    } 
 .card {
     width: 185.92px;
     height: 152.84px;
-    background: #FFFFFF;
     box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
     border-radius: 13.9792px;
     margin-bottom:24.16px;
-      }
-    
+    }   
 .card-content {
     height: 41%;
     padding: 5%;
@@ -345,73 +467,49 @@ h1{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-      }
-    
+    }    
 .painters img {
         width: 185.92px;
-      }
-.ui {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
+    }
+.ui {   
     font-size: 14px;
     line-height: 130%;
-    color: #000000;
 }
 .uii{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
     font-size: 14px;
     line-height: 97%;
-    color: #000000;
 }
-
 .uu, .uuu{
-    font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 130%;
-color: #000000;
+    font-size: 12px;
+    line-height: 130%;
 }
 
 /*серый блок*/
 .person{
     width: 373px;
     height: 423px;
-    background: #EFEFEF;
     padding: 42px 32px 53px 33px;
     box-sizing: border-box;
     margin-top: 25px;
 }
 .persons{
     width: 257px;
-    height: 69px;
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: bold;
+    height: 69px;   
     font-size: 26px;
     line-height: 101.38%;
-    color: #000000;
     margin-bottom:11px;
 }
 .block-person{
     width: 308px;
     height: 248px;
-    background: #FFFFFF;
     box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
     border-radius: 13.9792px; 
 }
 .feedback{
     width: 266px;
-    height: 111.01px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
+    height: 111.01px;  
     font-size: 10px;
     line-height: 15.45px;
-    color: #000000;
     padding: 18.47px 0 21.52px 21px;
 }
 .girl{
@@ -424,18 +522,13 @@ color: #000000;
     flex-direction:row;
     height:90px; 
 }
-.Ekaterina{
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: bold;
+.Ekaterina{ 
     font-size: 14px;
     line-height: 101.38%;
     margin-top:17px;
     margin-left: 10px;
     margin-bottom: 21px;
-    color: #000000;
 }
-
 .fb{
     width:14.91px;
     margin-left: 10px;
@@ -445,38 +538,24 @@ color: #000000;
 .money{
     width: 373px;
     height: 362px;
-    background: #9DC9C8;
     padding-top: 61px;
     padding-left: 31px;
     box-sizing: border-box;
 }
-.money h2{
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: bold;
+.money h2{  
     font-size: 26px;
     line-height: 27px;
-    color: #000000;
     width: 224px;
-
 }
-.price{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
+.price{ 
     font-size: 12px;
     line-height: 101.38%;
     margin-top:33px;
     margin-bottom:2px;
-    color: #000000;
 }
 .count{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 37px;
     line-height: 101.38%;
-    color: #000000;
 }
 .info-money{
     display: flex;
@@ -488,37 +567,27 @@ color: #000000;
     padding-left:2px;
 }
 .big-text{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 12px;
     line-height: 101.38%;
-    color: #000000;
     margin-top: 5px;
     margin-bottom: 8px;
 }
-.small-text{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
+.small-text{ 
     font-size: 10px;
     line-height: 101.38%;
-    width:144px;
-    color: #000000;
+    width:144px;   
 }
 /* блок черного цвета  */
 footer {
-    background-color: black;
+   
     width: 373px;
     height: 251px;
     padding:23px 0 0 36px;
     box-sizing: border-box;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
+   
     font-size: 12px;
     line-height: 101.38%;
-     color: #FFFFFF;
+
 }
 .sinhro-white{
     width:53.59px;
@@ -539,14 +608,10 @@ footer {
 .mail{
     margin-bottom:53px;
 }
-.logotip{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
+.logotip{   
     font-size: 10px;
     line-height: 101.38%;
-    color: #FFFFFF;
 }
 
-
+}
 
