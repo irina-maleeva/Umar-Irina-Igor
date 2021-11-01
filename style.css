@@ -522,7 +522,7 @@ h1{
     flex-direction:row;
     height:90px; 
 }
-.Ekaterina{ 
+.ekaterina{ 
     font-size: 14px;
     line-height: 101.38%;
     margin-top:17px;
@@ -612,6 +612,534 @@ footer {
     font-size: 10px;
     line-height: 101.38%;
 }
-
 }
 
+
+/* здесь стили для декстопа */
+@media screen and (min-width: 1280px) {
+
+header{
+        height:225px;
+    }
+.wrapper {
+      height: 100%;
+    }
+
+.wrapper1, .wrapper2{
+        padding-left:122px;
+    }
+.sinhro {
+        width: 112px;
+        height: 66px;
+        margin-top: 21px;
+      }
+.globe{
+    position: absolute;
+    width: 22px;
+    height: 21px;
+    left: 128px;
+    top: 193px;
+}
+.online-course{
+    position: absolute;
+    width: 130px;
+    height: 32px;
+    left: 158px;
+    top: 176px;
+    font-size: 20px;
+    line-height: 115%;
+}
+.clock{
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 314px;
+    top: 192px;
+}
+.hours{
+    position: absolute;
+    width: 130px;
+    height: 32px;
+    left: 346px;
+    top: 176px;
+    font-size: 20px;
+    line-height: 115%;
+}
+.calendar{
+    position: absolute;
+    width: 20px;
+    height: 22px;
+    left: 475px;
+    top: 193px;
+}
+.date{
+    position: absolute;
+    width: 130px;
+    height: 32px;
+    left: 509px;
+    top: 176px;
+    font-size: 20px;
+    line-height: 115%;
+}
+.second{
+    height: 769px;
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+h1 {
+      font-size: 80px;
+      line-height: 101.38%;
+      margin-top: 7.51px;
+      margin-bottom: 0;
+      width: 628px;
+    }
+.how{
+    width: 770px;
+    display:block;
+    margin-top:18px;
+}
+.row{
+    display:flex;
+    flex-direction:row;
+}
+.description {    
+      font-size: 20px;
+      line-height: 150%;
+      width:414px;   
+    }
+.noroot {
+      width: 305px;
+      height: 376px;
+      margin-right: 123.48px;
+    }
+  
+.blue {
+      width: 483.63px;
+      height: 200.02px;
+      border-radius: 5px;
+      margin-left: 289px;
+      margin-top: 67px;
+      padding-top:2px;
+      padding-left:10px;
+      box-sizing: border-box;
+    }
+  
+    .blue div {
+      width: 430.59px;
+      height: 113px;
+      margin-top: 19.26px;
+      margin-right: 20.02px;
+      margin-bottom: 20.74px;
+      margin-left: 16.03px;
+    }
+  
+    .blue p {
+      font-size: 25px;
+      line-height: 130%;
+      margin: 0;
+    }
+  
+    .blue span {
+      font-size: 20px;
+      line-height: 130%;
+      text-align: right;
+      margin-left: 268px;
+    }
+  
+  .course {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 101.4%;
+    margin-bottom:20px;
+  }
+  .row2{
+      display:flex;
+      flex-direction:row;
+      width: 1500px ;
+  }
+  .cameraman{
+      width:363px;
+      margin-left: 166px;
+      margin-top:62px
+
+  }
+    .wrappers {
+      margin-right: 88.61px;
+      margin-top: 173.36px;
+    }
+  
+    .wrappers p {
+      font-size: 24px;
+      line-height: 150%;
+      color: #000000;
+    }
+  
+    .text-block-one {
+      width: 662px;
+      height: 374px;
+    
+    }
+    .text-block-one p{
+        font-size: 24px;
+        line-height: 36px;
+        padding-top: 13px;
+    }
+  
+    .logo {
+      width: 315px;
+      height: 314px;
+      margin-top: 170px;
+    }
+  
+    .logo-second {
+      width: 211.98px;
+      height: 34.17px;
+      top: 100px;
+      position: absolute;
+      left: 637px;
+      top: 165px;
+      z-index: -1;
+    }
+  
+    .title {
+
+      font-size: 55px;
+      line-height: 101.38%;
+
+    }
+  
+    .logo-two {
+      width: 234px;
+      height: 217px;
+      margin-right: 41px;
+      margin-bottom: 54px;
+    }
+  
+    .tt {
+      display: flex;
+      /* justify-content: space-between; */
+      margin-top: 104px;
+      margin-bottom: 103.09px;
+      /* margin-right: 250px; */
+      position: relative;
+    }
+  
+    .em {
+      position: absolute;
+      width: 167.46px;
+      height: 18.53px;
+      top: 193px;
+      left: 43px;
+      z-index: -1;
+    }
+    .tt-details1{
+        margin-top:35px;
+        margin-left: 91px;
+        width: 200px;
+    }
+    .tt-details2{
+        margin-top:35px;
+        margin-left: 45px;
+        width: 200px;
+    }
+    .tt-details3{
+        margin-top:35px;
+        margin-left: 42px;
+        width: 200px;
+    }
+.tt h4 {
+    
+      font-size: 25px;
+      line-height: 130%;
+      margin-bottom:-10px;
+    }
+    .tt p {  
+      font-size: 18px;
+      line-height: 130%;
+    }
+    .forma {
+      font-size: 55px;
+      line-height: 101.38%;
+    } 
+    .format-lessons {
+      display: flex;
+      margin-top: 129px;
+      margin-left:2px;
+    } 
+    .n{
+        width: 233px;
+    }
+    .nn{
+        width: 270px; 
+        margin: 0 115px 0 112px;  
+    }
+    .format-lessons span {
+      font-size: 25px;
+      line-height: 114%;
+    }
+    .format-lessons p {
+      font-size: 18px;
+      line-height: 130%;
+      margin-top:12px;
+    }
+    .whats-new {
+      margin-top: 200.55px;
+      margin-bottom: 59px;
+      font-size: 55px;
+      line-height: 101.38%;
+    }
+    ul {
+      margin-top: 16.16px;
+      margin-bottom: 220.66px;
+      margin-left:-21px;
+      width:647px;
+    }
+  
+    ul li {
+      font-size: 24px;
+      line-height: 153%;
+    }
+  
+    .programs {    
+      margin: 0px 239.77px 55.02px 2.08px;
+      font-size: 55px;
+      line-height: 101.38%;
+    }
+  
+    .painters {
+      display: flex;
+      flex-wrap: wrap;
+      margin-left:-35px;
+      margin-top: 132px;
+      width: 1400px;
+    }
+  
+    .card {
+      width: 399px;
+      height: 328px;
+      border-radius: 30px;
+      box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.2);
+      margin-right: 36px;
+      margin-bottom:43px;
+    }
+
+    .card-content {
+      height: 41%;
+      padding: 5%;
+      padding-top: 7px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  
+    .painters img {
+        width: 399px;
+        height: 160px;
+    }
+  
+    .ui {
+      margin: 0;
+      font-size: 30px;
+      line-height: 130%;
+    }
+  
+    .uii {
+      margin: 0;
+      line-height: 117%;
+      font-size: 30px;
+    }
+    .uu {
+      margin: 0;
+      line-height: 130%;
+      width: 25.34vw;
+      font-size: 25px;
+    }
+    .uuu {
+      margin: 0;
+      line-height: 130%;
+      width: 25.34vw;
+      font-size: 25px;
+    }
+    .person {
+        padding-left: 122.97px;
+        width:1440px;
+        height: 780px;
+        padding-top: 45px;   
+        margin-top: 80px;
+        box-sizing: border-box;
+      }
+    .persons {
+      font-size: 55px;
+      line-height: 101.38%; 
+      margin-bottom:77px;  
+    }
+    .block-person {
+      width: 791px;
+      height: 451px;
+      box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
+      border-radius: 17.375px;
+      margin-left: 3.97px;
+      margin-right: 302.9px;
+    }
+  
+    .block-person p {
+      font-size: 20px;
+      line-height: 150%;
+      padding-top: 37px;
+      padding-left: 45px;
+      padding-right: 46px;
+      margin: 0;
+    }
+  
+    .girl {
+      width: 190px;
+      height: 169px;
+      margin-left: 26px;
+      margin-top: 34px;
+    }
+  
+    .info-about-person {
+      display: flex;
+    }
+  
+    .id-person {
+      margin-top: 64.96px;
+      margin-left: 29.38px;
+    }
+  
+    .id-person p {
+      font-size: 30px;
+    }
+  
+    .info-about-person p {
+      padding: 0;
+    }
+  
+    .fb {
+      width: 32px;
+      height: 31px;
+      margin-top: 25px;
+    }
+  
+    .money {
+
+      padding-left: 70.66px;
+      padding-top: 103.67px;
+      padding-bottom: 107.15px;
+      padding-right: 237.46px;
+      width: 1440px;
+      height: 780px;
+      box-sizing: border-box;
+    }
+  
+    .month {
+      margin-top: 73px;
+      margin-left:52px;
+      font-size: 55px;
+      line-height: 101.38%;
+      margin-bottom: 65.27px;
+
+    }
+  
+    .price {
+      font-size: 25px;
+      line-height: 101.38%;
+      margin-left:52px;
+      margin-top:10px;
+      margin-bottom:8px;
+    }
+  
+    .count {
+      margin: 0 0 49px 53px;
+      font-size: 80px;
+      line-height: 101.38%;
+    }
+  
+    .info-money {
+      display: flex;
+      margin-left:52px;
+    }
+  
+    .info-money div:nth-child(2) {
+      margin-left: 70.54px;
+    }
+  
+    .big-text {
+      font-size: 25px;
+      line-height: 101.38%;
+      margin-bottom: -3px;
+    }
+  
+    .small-text {
+      font-size: 18px;
+      line-height: 101.38%;
+      width: 294px;
+    }
+  
+    footer {
+      padding-top: 29px;
+      padding-left: 70.66px;
+      padding-right: 85px;
+      padding-bottom: 13.32px;
+    }
+  footer{
+    width: 1440px;
+    height: 390px;
+    box-sizing: border-box;
+  }
+    .adress {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      /* justify-content: space-between; */
+    }
+  
+    .adress span {
+      /* margin-left: 13px; */
+      font-size: 25px;
+    }
+  
+    .logotip {
+      margin-top: 140px;
+      margin-left: 51px;
+      font-size: 18px;
+    }
+  
+    .icons {
+      margin-left: 40px;
+      margin-right:655px;
+    }
+  
+    .icons img {
+      margin-top: 26.38px;
+      width: 33px;
+      /* height: 33px; */
+      margin-left: 13px;
+    
+    }
+    .vk{
+        margin-right: 10px;
+    }
+    .fb-white{
+        margin-right:4px;
+    }
+    .contact{
+      width: 27px;
+      /* height: 27px; */
+      /* font-size: 25px; */
+      margin-right: 18px;
+    }
+   
+  
+    .phone{
+        margin-bottom:14px;
+        margin-top: 23px;
+    }
+    .sinhro-white {
+      width: 115px;
+      height: 68px;
+      margin-left: 52px;
+      margin-top: 21px;
+    }
+  }
+ 
