@@ -213,7 +213,7 @@ footer {
 }
 
   /* начало верстки для мобильного телефона */
-@media (min-width:320px) and (max-width: 991px) {
+@media  screen and (min-width:320px) and (max-width: 991px) {
   
 *{
         margin:0;
@@ -683,8 +683,6 @@ header{
 }
 .second{
     height: 769px;
-    /* display: flex; */
-    /* justify-content: space-between; */
 }
 h1 {
       font-size: 80px;
@@ -711,8 +709,7 @@ h1 {
       width: 305px;
       height: 376px;
       margin-right: 123.48px;
-    }
-  
+    } 
 .blue {
       width: 483.63px;
       height: 200.02px;
@@ -723,7 +720,6 @@ h1 {
       padding-left:10px;
       box-sizing: border-box;
     }
-  
     .blue div {
       width: 430.59px;
       height: 113px;
@@ -732,65 +728,55 @@ h1 {
       margin-bottom: 20.74px;
       margin-left: 16.03px;
     }
-  
     .blue p {
       font-size: 25px;
       line-height: 130%;
       margin: 0;
     }
-  
     .blue span {
       font-size: 20px;
       line-height: 130%;
       text-align: right;
       margin-left: 268px;
     }
-  
   .course {
     font-weight: 700;
     font-size: 55px;
     line-height: 101.4%;
     margin-bottom:20px;
-  }
+    }
   .row2{
       display:flex;
       flex-direction:row;
       width: 1500px ;
-  }
+    }
   .cameraman{
       width:363px;
       margin-left: 166px;
       margin-top:62px
-
-  }
+    }
     .wrappers {
       margin-right: 88.61px;
       margin-top: 173.36px;
     }
-  
     .wrappers p {
       font-size: 24px;
       line-height: 150%;
-      color: #000000;
     }
-  
     .text-block-one {
       width: 662px;
-      height: 374px;
-    
+      height: 374px;   
     }
     .text-block-one p{
         font-size: 24px;
         line-height: 36px;
         padding-top: 13px;
     }
-  
     .logo {
       width: 315px;
       height: 314px;
       margin-top: 170px;
     }
-  
     .logo-second {
       width: 211.98px;
       height: 34.17px;
@@ -800,30 +786,22 @@ h1 {
       top: 165px;
       z-index: -1;
     }
-  
     .title {
-
       font-size: 55px;
       line-height: 101.38%;
-
     }
-  
     .logo-two {
       width: 234px;
       height: 217px;
       margin-right: 41px;
       margin-bottom: 54px;
     }
-  
     .tt {
       display: flex;
-      /* justify-content: space-between; */
       margin-top: 104px;
       margin-bottom: 103.09px;
-      /* margin-right: 250px; */
       position: relative;
     }
-  
     .em {
       position: absolute;
       width: 167.46px;
@@ -847,8 +825,7 @@ h1 {
         margin-left: 42px;
         width: 200px;
     }
-.tt h4 {
-    
+.tt h4 { 
       font-size: 25px;
       line-height: 130%;
       margin-bottom:-10px;
@@ -894,18 +871,15 @@ h1 {
       margin-left:-21px;
       width:647px;
     }
-  
     ul li {
       font-size: 24px;
       line-height: 153%;
-    }
-  
+    } 
     .programs {    
       margin: 0px 239.77px 55.02px 2.08px;
       font-size: 55px;
       line-height: 101.38%;
     }
-  
     .painters {
       display: flex;
       flex-wrap: wrap;
@@ -913,7 +887,6 @@ h1 {
       margin-top: 132px;
       width: 1400px;
     }
-  
     .card {
       width: 399px;
       height: 328px;
@@ -922,7 +895,6 @@ h1 {
       margin-right: 36px;
       margin-bottom:43px;
     }
-
     .card-content {
       height: 41%;
       padding: 5%;
@@ -930,19 +902,16 @@ h1 {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-    }
-  
+    } 
     .painters img {
         width: 399px;
         height: 160px;
     }
-  
     .ui {
       margin: 0;
       font-size: 30px;
       line-height: 130%;
     }
-  
     .uii {
       margin: 0;
       line-height: 117%;
@@ -981,7 +950,6 @@ h1 {
       margin-left: 3.97px;
       margin-right: 302.9px;
     }
-  
     .block-person p {
       font-size: 20px;
       line-height: 150%;
@@ -990,39 +958,31 @@ h1 {
       padding-right: 46px;
       margin: 0;
     }
-  
     .girl {
       width: 190px;
       height: 169px;
       margin-left: 26px;
       margin-top: 34px;
     }
-  
     .info-about-person {
       display: flex;
-    }
-  
+    } 
     .id-person {
       margin-top: 64.96px;
       margin-left: 29.38px;
     }
-  
     .id-person p {
       font-size: 30px;
-    }
-  
+    } 
     .info-about-person p {
       padding: 0;
     }
-  
     .fb {
       width: 32px;
       height: 31px;
       margin-top: 25px;
     }
-  
     .money {
-
       padding-left: 70.66px;
       padding-top: 103.67px;
       padding-bottom: 107.15px;
@@ -1030,17 +990,14 @@ h1 {
       width: 1440px;
       height: 780px;
       box-sizing: border-box;
-    }
-  
+    } 
     .month {
       margin-top: 73px;
       margin-left:52px;
       font-size: 55px;
       line-height: 101.38%;
       margin-bottom: 65.27px;
-
     }
-  
     .price {
       font-size: 25px;
       line-height: 101.38%;
@@ -1048,74 +1005,58 @@ h1 {
       margin-top:10px;
       margin-bottom:8px;
     }
-  
     .count {
       margin: 0 0 49px 53px;
       font-size: 80px;
       line-height: 101.38%;
     }
-  
     .info-money {
       display: flex;
       margin-left:52px;
     }
-  
     .info-money div:nth-child(2) {
       margin-left: 70.54px;
     }
-  
     .big-text {
       font-size: 25px;
       line-height: 101.38%;
       margin-bottom: -3px;
     }
-  
     .small-text {
       font-size: 18px;
       line-height: 101.38%;
       width: 294px;
     }
-  
     footer {
       padding-top: 29px;
       padding-left: 70.66px;
       padding-right: 85px;
       padding-bottom: 13.32px;
+        width: 1440px;
+        height: 390px;
+        box-sizing: border-box;
     }
-  footer{
-    width: 1440px;
-    height: 390px;
-    box-sizing: border-box;
-  }
     .adress {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-      /* justify-content: space-between; */
     }
-  
     .adress span {
-      /* margin-left: 13px; */
       font-size: 25px;
     }
-  
     .logotip {
       margin-top: 140px;
       margin-left: 51px;
       font-size: 18px;
     }
-  
     .icons {
       margin-left: 40px;
       margin-right:655px;
-    }
-  
+    }  
     .icons img {
       margin-top: 26.38px;
       width: 33px;
-      /* height: 33px; */
-      margin-left: 13px;
-    
+      margin-left: 13px;   
     }
     .vk{
         margin-right: 10px;
@@ -1125,12 +1066,8 @@ h1 {
     }
     .contact{
       width: 27px;
-      /* height: 27px; */
-      /* font-size: 25px; */
       margin-right: 18px;
-    }
-   
-  
+    } 
     .phone{
         margin-bottom:14px;
         margin-top: 23px;
@@ -1142,4 +1079,393 @@ h1 {
       margin-top: 21px;
     }
   }
+
+  /* здесь стили для планшета */
+@media screen and (min-width: 992px) and (max-width: 1279px) {
  
+    .wrapper {
+        height: 100%;
+      }
+      .block-one {
+        padding-left: 70.06px;
+      }
+      .sinhro {
+        width: 64.86px;
+        height: 38.23px;
+        margin-top: 22px;
+      }
+      .list-one {
+        display: flex;
+        margin-top: 57.92px;
+      }
+      .ops {
+        margin-left: 14.48px;
+      }
+      .list-one img {
+        width: 12.74px;
+        height: 12.74px;
+      } 
+      .list-one span {
+        font-size: 12px;
+        line-height: 115%;
+        margin-left: 5px;
+      }
+      h1 {
+        font-size: 46px;
+        line-height: 101.38%;
+        margin-top: 7.51px;
+        margin-bottom: 0;
+      }
+      .second {
+        display: flex;
+        justify-content: space-between;
+      }
+    
+      .keks {
+        font-size: 12px;
+        line-height: 150%;
+      }
+      .man-order {
+        width: 176.07px;
+        height: 206.18px;
+        margin-right: 142.48px;
+      }
+    
+      .block-blue {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 280.11px;
+        height: 115.83px;
+        border-radius: 5px;
+        margin-left: 237px;
+        margin-top: 70px;
+      }
+    
+      .block-blue div {
+        width: 249.38px;
+        height: 65.45px;
+        margin: 11.15px 15.65px 39.24px 15.08px;
+      }
+    
+      .block-blue p {
+        font-size: 14px;
+        line-height: 130%;
+        margin: 0;
+      }
+    
+      .block-blue span {
+        font-size: 12px;
+        line-height: 130%;
+        text-align: right;
+        margin-left: 134px;
+      }
+    
+      .wrappers {
+        margin-right: 88.61px;
+        display: flex;
+        justify-content: space-between;
+      }
+    
+      .wrappers p {
+        font-size: 14px;
+        line-height: 150%;
+      }
+    
+      .text-block-one {
+        width: 383.41px;
+        height: 216.61px;
+      }
+    
+      .logo {
+        width: 181.86px;
+        height: 182.44px;
+      }
+    
+      .logo-second {
+        width: 211.98px;
+        height: 34.17px;
+        top: 100px;
+        position: absolute;
+        left: 637px;
+        top: 165px;
+        z-index: -1;
+      }
+    
+      .title {
+        font-size: 55px;
+        line-height: 101.38%;
+      }
+    
+      .logo-two {
+        width: 134px;
+        height: 117px;
+      }
+    
+      .tt {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 54.44px;
+        margin-bottom: 103.09px;
+        margin-right: 250px;
+        position: relative;
+      }
+    
+      .em {
+        position: absolute;
+        width: 167.46px;
+        height: 18.53px;
+        top: 193px;
+        left: 43px;
+        z-index: -1;
+      }
+    
+      .tt h3 {
+        font-size: 15px;
+        line-height: 130%;
+      }
+    
+      .tt p {
+        font-size: 11px;
+        line-height: 130%;
+      }
+    
+      .forma {
+        font-size: 32px;
+        line-height: 101.38%;
+        margin-top: 0;
+      }
+    
+      .format-lessons {
+        display: flex;
+        margin-left: -44px;
+      }
+    
+      .format-lessons div {
+        margin-left: 50px;
+      }
+    
+      .format-lessons span {
+        font-size: 15px;
+        line-height: 130%;
+      }
+    
+      .format-lessons p {
+        font-size: 11px;
+        line-height: 130%;
+      }
+    
+      .whats-new {
+        margin-top: 144.55px;
+        margin-bottom: 0;
+        font-size: 32px;
+        line-height: 101.38%;
+      }
+    
+      ul {
+        margin-top: 12.16px;
+        margin-bottom: 143.66px;
+      }
+    
+      ul li {
+        font-size: 14px;
+        line-height: 150%;
+      }
+    
+      .programs {
+        margin: 0px 239.77px 55.02px 70.08px;
+        font-size: 32px;
+        line-height: 101.38%;
+      }
+    
+      .painters {
+        padding: 2.5%;
+        display: flex;
+        flex-wrap: wrap;
+      }
+    
+      .card {
+        margin: 2.27vw;
+        width: 26.5vw;
+        height: 22vw;
+        border-radius: 8%;
+        box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.2);
+      }
+    
+      .card-content {
+        height: 41%;
+        padding: 5%;
+        padding-top: 2.5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+    
+      .painters img {
+        width: 26.5vw;
+      }
+    
+      .ui {
+        margin: 0;
+        font-size: 2.08vw;
+        line-height: 130%;
+      }
+    
+      .uii {
+        margin: 0;
+        line-height: 130%;
+        font-size: 2.08vw;
+      }
+    
+      .uu {
+        margin: 0;
+        line-height: 130%;
+        width: 25.34vw;
+        font-size: 1.74vw;
+      }
+    
+      .uuu {
+        margin: 0;
+        line-height: 130%;
+        width: 25.34vw;
+        font-size: 1.74vw;
+      }
+    
+      .persons {
+        font-size: 32px;
+        line-height: 101.38%;
+        padding: 52.7px 191.7px 19.69px 0px;
+        padding-left: -2px;
+      }
+    
+      .person {
+        padding-bottom: 64.29px;
+        padding-left: 72.97px;
+      }
+    
+      .block-person {
+        width: 458.12px;
+        height: 261.2px;
+        box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
+        border-radius: 17.375px;
+        margin-right: 302.9px;
+      }
+    
+      .block-person p {
+        font-size: 12px;
+        line-height: 150%;
+        padding-top: 23.17px;
+        padding-left: 26.06px;
+        padding-right: 26.64px;
+        padding-bottom: 6px;
+        margin: 0;
+      }
+    
+      .girl {
+        width: 110.04px;
+        height: 97.88px;
+        margin-left: 15.06px;
+        margin-bottom: 16.8px;
+      }
+    
+      .info-about-person {
+        display: flex;
+      }
+    
+      .id-person {
+        margin-top: 28.96px;
+        margin-left: 17.38px;
+      }
+    
+      .info-about-person p {
+        padding: 0;
+      }
+    
+      .fb {
+        width: 18.53px;
+        height: 17.95px;
+        margin-top: 3px;
+      }
+    
+      .money {
+        padding-left: 70.66px;
+        padding-top: 103.67px;
+        padding-bottom: 107.15px;
+        padding-right: 237.46px;
+      }
+    
+      .month {
+        margin-top: 0;
+        font-size: 32px;
+        line-height: 101.38%;
+        margin-bottom: 31.27px;
+      }
+    
+      .price {
+        font-size: 14px;
+        line-height: 101.38%;
+        margin: 0;
+      }
+    
+      .count {
+        margin-top: 0;
+        font-size: 46px;
+        line-height: 101.38%;
+      }
+    
+      .info-money {
+        display: flex;
+      }
+    
+      .info-money div:nth-child(2) {
+        margin-left: 40.54px;
+      }
+    
+      .big-text {
+        font-size: 14px;
+        line-height: 101.38%;
+      }
+    
+      .small-text {
+        font-size: 10px;
+        line-height: 101.38%;
+      }
+    
+      footer {
+        padding-top: 29px;
+        padding-left: 70.66px;
+        padding-right: 85px;
+        padding-bottom: 13.32px;
+      }
+    
+      .adress {
+        display: flex;
+        justify-content: space-between;
+      }
+    
+      .adress span {
+        margin-left: 13px;
+      }
+    
+      .logotip {
+        margin-top: 85px;
+      }
+    
+      .icons {
+        margin-left: -12px;
+      }
+    
+      .icons img {
+        margin-top: 17.38px;
+        width: 19px;
+        height: 19px;
+        margin-left: 12px;
+      }
+    
+      .contact {
+        width: 15.64px;
+        height: 15.64px;
+      }
+    }
+    
+    
