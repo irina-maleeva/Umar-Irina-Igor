@@ -50,25 +50,25 @@ h1{
     font-weight: bold;
     color: #000000;
 }
-.text-block-one{
+.about{
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     color: #000000;
 }
-.tt {
+.menu {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     color: #000000;
 }
-.tt h4{
+.menu h4{
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     color: #000000;
 }
-.tt p{
+.menu p{
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -79,7 +79,7 @@ h1{
     font-weight: normal;
     color: #000000;
 }
-.forma{
+.format-head{
     font-family: Roboto Slab;
     font-style: normal;
     font-weight: bold;
@@ -123,25 +123,25 @@ h1{
 .card {
     background: #FFFFFF;
 }
-.ui {
+.agenda1 {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     color: #000000;
 }
-.uii{
+.agenda2{
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     color: #000000;
 }
-.uu, .uuu{
+.agenda-details1, .agenda-details2{
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     color: #000000;
 }
-.person{
+.grey{
     background: #EFEFEF;
 }
 .persons{
@@ -150,7 +150,7 @@ h1{
     font-weight: bold;
     color: #000000;
 }
-.block-person{
+.grey-white{
     background: #FFFFFF;
 }
 .feedback{
@@ -159,7 +159,7 @@ h1{
     font-weight: normal;
     color: #000000;
 }
-.Ekaterina{
+.ekaterina{
     font-family: Roboto Slab;
     font-style: normal;
     font-weight: bold;
@@ -205,7 +205,7 @@ footer {
     font-weight: normal;
     color: #FFFFFF;
 }
-.logotip{
+.copywrite{
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -233,13 +233,10 @@ header{
     width: 374px;
     box-sizing:border-box;
 }
-
-/* logo_mobile_black 1 */
-.sinhro {
+.logo-black {
     width: 52.19px;
     height: 30.75px;
 }
-
 .globe{
     position: absolute;
     width: 10.25px;
@@ -286,7 +283,7 @@ header{
     font-size: 10px;
     line-height: 115%;
 }
-.second{
+.begining{
     height: 500px;
 }
 h1{
@@ -340,7 +337,7 @@ h1{
     font-size: 26px;
     line-height: 101.38%;
 }
-.text-block-one{
+.about{
     width: 308.47px;
     height: 225px;
     padding-top:9px;
@@ -349,7 +346,7 @@ h1{
     line-height: 153%;
     box-sizing: border-box;
 }
-.text-block-one p:first-child{
+.about p:first-child{
     margin-bottom:16px;
 }
 .cameraman{
@@ -357,7 +354,7 @@ h1{
     margin-left: 67px;
     margin-top: 15px;
     }
-.tt {
+.menu {
     width: 250px;
     height:140px;   
     font-size: 12px;
@@ -370,31 +367,22 @@ h1{
 .block-app{
     display:none;
 }
-.tt div{
+.menu div{
     width: 86px;
     padding-right:33px;
 }
-.tt h4{  
+.menu h4{  
     font-size: 12px;
     line-height: 130%;
 }
-.tt p{
+.menu p{
     width: 86px;
     height: 18px;
     font-size: 10px;
     line-height: 130%;
     margin-top:5px;
 }
-.about{
-    position: absolute;
-    width: 308.47px;
-    height: 174.27px;
-    left: 36px;
-    top: 687.72px;   
-    font-size: 12px;
-    line-height: 150%;
-}
-.forma{
+.format-head{
     height: 43.34px;    
     font-size: 26px;
     line-height: 101.38%;      
@@ -417,10 +405,10 @@ h1{
     line-height: 130%;
     margin-top: 5px;   
 }
-.n{
+.format1{
     width: 170px;
 }
-.nn{
+.format2{
     width: 170px;
 }
 .whats-new{
@@ -471,22 +459,22 @@ h1{
 .painters img {
         width: 185.92px;
     }
-.ui {   
+.agenda1 {   
     font-size: 14px;
     line-height: 130%;
 }
-.uii{
+.agenda2{
     font-size: 14px;
     line-height: 97%;
 }
-.uu, .uuu{
+.agenda-details1, .agenda-details2{
     font-size: 12px;
     line-height: 130%;
 }
 
 /*серый блок*/
-.person{
-    width: 373px;
+.grey{
+    width:991px;
     height: 423px;
     padding: 42px 32px 53px 33px;
     box-sizing: border-box;
@@ -499,7 +487,7 @@ h1{
     line-height: 101.38%;
     margin-bottom:11px;
 }
-.block-person{
+.grey-white{
     width: 308px;
     height: 248px;
     box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
@@ -536,7 +524,7 @@ h1{
 
 /* блок мятного цвета */
 .money{
-    width: 373px;
+    width:991px;
     height: 362px;
     padding-top: 61px;
     padding-left: 31px;
@@ -579,8 +567,7 @@ h1{
 }
 /* блок черного цвета  */
 footer {
-   
-    width: 373px;
+    width:991px;
     height: 251px;
     padding:23px 0 0 36px;
     box-sizing: border-box;
@@ -589,7 +576,7 @@ footer {
     line-height: 101.38%;
 
 }
-.sinhro-white{
+.logo-white{
     width:53.59px;
 }
 .icons img{
@@ -608,7 +595,7 @@ footer {
 .mail{
     margin-bottom:53px;
 }
-.logotip{   
+.copywrite{   
     font-size: 10px;
     line-height: 101.38%;
 }
@@ -628,7 +615,7 @@ header{
 .wrapper1, .wrapper2{
         padding-left:122px;
     }
-.sinhro {
+.logo-black {
         width: 112px;
         height: 66px;
         margin-top: 21px;
@@ -681,7 +668,7 @@ header{
     font-size: 20px;
     line-height: 115%;
 }
-.second{
+.begining{
     height: 769px;
 }
 h1 {
@@ -763,11 +750,11 @@ h1 {
       font-size: 24px;
       line-height: 150%;
     }
-    .text-block-one {
+    .about {
       width: 662px;
       height: 374px;   
     }
-    .text-block-one p{
+    .about p{
         font-size: 24px;
         line-height: 36px;
         padding-top: 13px;
@@ -777,26 +764,17 @@ h1 {
       height: 314px;
       margin-top: 170px;
     }
-    .logo-second {
-      width: 211.98px;
-      height: 34.17px;
-      top: 100px;
-      position: absolute;
-      left: 637px;
-      top: 165px;
-      z-index: -1;
-    }
     .title {
       font-size: 55px;
       line-height: 101.38%;
     }
-    .logo-two {
+    .bigcamera {
       width: 234px;
       height: 217px;
       margin-right: 41px;
       margin-bottom: 54px;
     }
-    .tt {
+    .menu {
       display: flex;
       margin-top: 104px;
       margin-bottom: 103.09px;
@@ -810,31 +788,31 @@ h1 {
       left: 43px;
       z-index: -1;
     }
-    .tt-details1{
+    .details1{
         margin-top:35px;
         margin-left: 91px;
         width: 200px;
     }
-    .tt-details2{
+    .details2{
         margin-top:35px;
         margin-left: 45px;
         width: 200px;
     }
-    .tt-details3{
+    .details3{
         margin-top:35px;
         margin-left: 42px;
         width: 200px;
     }
-.tt h4 { 
+    .menu h4 { 
       font-size: 25px;
       line-height: 130%;
       margin-bottom:-10px;
     }
-    .tt p {  
+    .menu p {  
       font-size: 18px;
       line-height: 130%;
     }
-    .forma {
+    .format-head {
       font-size: 55px;
       line-height: 101.38%;
     } 
@@ -843,10 +821,10 @@ h1 {
       margin-top: 129px;
       margin-left:2px;
     } 
-    .n{
+    .format1{
         width: 233px;
     }
-    .nn{
+    .format2{
         width: 270px; 
         margin: 0 115px 0 112px;  
     }
@@ -907,29 +885,29 @@ h1 {
         width: 399px;
         height: 160px;
     }
-    .ui {
+    .agenda1 {
       margin: 0;
       font-size: 30px;
       line-height: 130%;
     }
-    .uii {
+    .agenda2 {
       margin: 0;
       line-height: 117%;
       font-size: 30px;
     }
-    .uu {
+    .agenda-details1 {
       margin: 0;
       line-height: 130%;
       width: 25.34vw;
       font-size: 25px;
     }
-    .uuu {
+    .agenda-details2 {
       margin: 0;
       line-height: 130%;
       width: 25.34vw;
       font-size: 25px;
     }
-    .person {
+    .grey {
         padding-left: 122.97px;
         width:1440px;
         height: 780px;
@@ -942,7 +920,7 @@ h1 {
       line-height: 101.38%; 
       margin-bottom:77px;  
     }
-    .block-person {
+    .grey-white {
       width: 791px;
       height: 451px;
       box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
@@ -950,7 +928,7 @@ h1 {
       margin-left: 3.97px;
       margin-right: 302.9px;
     }
-    .block-person p {
+    .grey-white p {
       font-size: 20px;
       line-height: 150%;
       padding-top: 37px;
@@ -1036,15 +1014,15 @@ h1 {
         height: 390px;
         box-sizing: border-box;
     }
-    .adress {
+    .black {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
     }
-    .adress span {
+    .black span {
       font-size: 25px;
     }
-    .logotip {
+    .copywrite {
       margin-top: 140px;
       margin-left: 51px;
       font-size: 18px;
@@ -1072,7 +1050,7 @@ h1 {
         margin-bottom:14px;
         margin-top: 23px;
     }
-    .sinhro-white {
+    .logo-white {
       width: 115px;
       height: 68px;
       margin-left: 52px;
@@ -1086,10 +1064,11 @@ h1 {
     .wrapper {
         height: 100%;
       }
-      .block-one {
+      .wrapper1, .wrapper2 {
         padding-left: 70.06px;
       }
-      .sinhro {
+      /* поменяла block-one на wrapper1 */
+      .logo-black {
         width: 64.86px;
         height: 38.23px;
         margin-top: 22px;
@@ -1098,17 +1077,23 @@ h1 {
         display: flex;
         margin-top: 57.92px;
       }
-      .ops {
+      .clock {
         margin-left: 14.48px;
+      }
+      .ops{
+          width: 95px;
+          display: flex;
+          flex-direction: row;
       }
       .list-one img {
         width: 12.74px;
         height: 12.74px;
       } 
-      .list-one span {
+      .list-one p {
         font-size: 12px;
         line-height: 115%;
         margin-left: 5px;
+        margin-top:0;
       }
       h1 {
         font-size: 46px;
@@ -1116,93 +1101,90 @@ h1 {
         margin-top: 7.51px;
         margin-bottom: 0;
       }
-      .second {
-        display: flex;
-        justify-content: space-between;
+      /* .begining { */
+        /* display: flex; */
+        /* justify-content: space-between; */
+      
+      .row{
+        display:flex;
+        flex-direction:row;
+        width: 770px ;
       }
-    
-      .keks {
+      .description {
         font-size: 12px;
         line-height: 150%;
+        width:249px;
       }
-      .man-order {
+      .noroot {
         width: 176.07px;
         height: 206.18px;
         margin-right: 142.48px;
       }
-    
-      .block-blue {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 280.11px;
+      .blue {
+        /* display: flex; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        width: 280.11px; 
         height: 115.83px;
-        border-radius: 5px;
-        margin-left: 237px;
-        margin-top: 70px;
+        /* border-radius: 5px; */
+        margin-left: 167px;
+        /* margin-top: 70px; */
+        padding: 11.15px 0 0 15.08px;
+        box-sizing: border-box;
+      } 
+      .blue-text {
+        width: 249.38px; 
+       height: 76.45px; 
+        /* margin: 11.15px 15.65px 39.24px 15.08px;  */
       }
-    
-      .block-blue div {
-        width: 249.38px;
-        height: 65.45px;
-        margin: 11.15px 15.65px 39.24px 15.08px;
-      }
-    
-      .block-blue p {
+      .blue p {
         font-size: 14px;
         line-height: 130%;
         margin: 0;
+        /* margin-bottom: 39.24px; */
       }
-    
-      .block-blue span {
+      .blue span {
         font-size: 12px;
         line-height: 130%;
         text-align: right;
         margin-left: 134px;
+        /* margin-top:39.24px; */
       }
-    
-      .wrappers {
+      .row2 {
         margin-right: 88.61px;
         display: flex;
-        justify-content: space-between;
+        /* justify-content: space-between; */
       }
-    
-      .wrappers p {
+      .row2 p {
         font-size: 14px;
         line-height: 150%;
       }
-    
-      .text-block-one {
+      .about {
         width: 383.41px;
         height: 216.61px;
       }
-    
       .logo {
         width: 181.86px;
         height: 182.44px;
       }
-    
-      .logo-second {
-        width: 211.98px;
-        height: 34.17px;
-        top: 100px;
-        position: absolute;
-        left: 637px;
-        top: 165px;
-        z-index: -1;
+      .cameraman {
+        /* position: absolute; */
+        width: 181.86px;
+        height: 182.44px;
+        /* left: 563.53px; */
+        /* top: 595.36px; */
+        /* z-index: -1; */
+        margin-left:110.04px;
       }
-    
       .title {
         font-size: 55px;
         line-height: 101.38%;
       }
-    
-      .logo-two {
+      .bigcamera {
         width: 134px;
         height: 117px;
       }
-    
-      .tt {
+      .menu {
         display: flex;
         justify-content: space-between;
         margin-top: 54.44px;
@@ -1210,7 +1192,6 @@ h1 {
         margin-right: 250px;
         position: relative;
       }
-    
       .em {
         position: absolute;
         width: 167.46px;
@@ -1219,71 +1200,65 @@ h1 {
         left: 43px;
         z-index: -1;
       }
-    
-      .tt h3 {
+      .menu h3 {
         font-size: 15px;
         line-height: 130%;
       }
-    
-      .tt p {
+      .menu p {
         font-size: 11px;
         line-height: 130%;
       }
-    
-      .forma {
+      .format-head {
         font-size: 32px;
         line-height: 101.38%;
         margin-top: 0;
       }
-    
       .format-lessons {
         display: flex;
         margin-left: -44px;
       }
-    
       .format-lessons div {
         margin-left: 50px;
       }
-    
       .format-lessons span {
         font-size: 15px;
         line-height: 130%;
       }
-    
       .format-lessons p {
         font-size: 11px;
         line-height: 130%;
       }
-    
+      .format1{
+        width:151px;
+        }
+    .format2{
+      width:172px;
+      }
       .whats-new {
         margin-top: 144.55px;
         margin-bottom: 0;
         font-size: 32px;
         line-height: 101.38%;
       }
-    
       ul {
         margin-top: 12.16px;
         margin-bottom: 143.66px;
+        width: 383.81px;
       }
-    
       ul li {
         font-size: 14px;
         line-height: 150%;
       }
-    
       .programs {
         margin: 0px 239.77px 55.02px 70.08px;
         font-size: 32px;
         line-height: 101.38%;
       }
-    
       .painters {
         padding: 2.5%;
         display: flex;
         flex-wrap: wrap;
       }
-    
       .card {
         margin: 2.27vw;
         width: 26.5vw;
@@ -1291,7 +1266,6 @@ h1 {
         border-radius: 8%;
         box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.2);
       }
-    
       .card-content {
         height: 41%;
         padding: 5%;
@@ -1300,58 +1274,49 @@ h1 {
         flex-direction: column;
         justify-content: space-between;
       }
-    
       .painters img {
         width: 26.5vw;
       }
-    
-      .ui {
+      .agenda1 {
         margin: 0;
         font-size: 2.08vw;
         line-height: 130%;
       }
-    
-      .uii {
+      .agenda2 {
         margin: 0;
         line-height: 130%;
         font-size: 2.08vw;
       }
-    
-      .uu {
+      .agenda-details1 {
         margin: 0;
         line-height: 130%;
         width: 25.34vw;
         font-size: 1.74vw;
       }
-    
-      .uuu {
+      .agenda-details2 {
         margin: 0;
         line-height: 130%;
         width: 25.34vw;
         font-size: 1.74vw;
       }
-    
       .persons {
         font-size: 32px;
         line-height: 101.38%;
         padding: 52.7px 191.7px 19.69px 0px;
         padding-left: -2px;
       }
-    
-      .person {
+      .grey {
         padding-bottom: 64.29px;
         padding-left: 72.97px;
       }
-    
-      .block-person {
+      .grey-white {
         width: 458.12px;
         height: 261.2px;
         box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
         border-radius: 17.375px;
         margin-right: 302.9px;
       }
-    
-      .block-person p {
+      .grey-white p {
         font-size: 12px;
         line-height: 150%;
         padding-top: 23.17px;
@@ -1360,109 +1325,89 @@ h1 {
         padding-bottom: 6px;
         margin: 0;
       }
-    
       .girl {
         width: 110.04px;
         height: 97.88px;
         margin-left: 15.06px;
         margin-bottom: 16.8px;
       }
-    
       .info-about-person {
         display: flex;
       }
-    
       .id-person {
         margin-top: 28.96px;
         margin-left: 17.38px;
       }
-    
       .info-about-person p {
         padding: 0;
       }
-    
       .fb {
         width: 18.53px;
         height: 17.95px;
         margin-top: 3px;
       }
-    
       .money {
         padding-left: 70.66px;
         padding-top: 103.67px;
         padding-bottom: 107.15px;
         padding-right: 237.46px;
       }
-    
       .month {
         margin-top: 0;
         font-size: 32px;
         line-height: 101.38%;
         margin-bottom: 31.27px;
       }
-    
       .price {
         font-size: 14px;
         line-height: 101.38%;
         margin: 0;
       }
-    
       .count {
         margin-top: 0;
         font-size: 46px;
         line-height: 101.38%;
       }
-    
       .info-money {
         display: flex;
       }
-    
       .info-money div:nth-child(2) {
         margin-left: 40.54px;
       }
-    
       .big-text {
         font-size: 14px;
         line-height: 101.38%;
       }
-    
       .small-text {
         font-size: 10px;
         line-height: 101.38%;
       }
-    
       footer {
         padding-top: 29px;
         padding-left: 70.66px;
         padding-right: 85px;
         padding-bottom: 13.32px;
       }
-    
-      .adress {
+      .black {
         display: flex;
         justify-content: space-between;
       }
-    
-      .adress span {
+      .black span {
         margin-left: 13px;
       }
-    
-      .logotip {
+      .copywrite {
         margin-top: 85px;
       }
-    
       .icons {
         margin-left: -12px;
       }
-    
       .icons img {
         margin-top: 17.38px;
         width: 19px;
         height: 19px;
         margin-left: 12px;
       }
-    
-      .contact {
+    .contact {
         width: 15.64px;
         height: 15.64px;
       }
