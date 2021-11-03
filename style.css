@@ -50,25 +50,25 @@ h1{
     font-weight: bold;
     color: #000000;
 }
-.text-block-one{
+.about{
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     color: #000000;
 }
-.tt {
+.menu {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     color: #000000;
 }
-.tt h4{
+.menu h4{
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     color: #000000;
 }
-.tt p{
+.menu p{
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -79,7 +79,7 @@ h1{
     font-weight: normal;
     color: #000000;
 }
-.forma{
+.format-head{
     font-family: Roboto Slab;
     font-style: normal;
     font-weight: bold;
@@ -123,25 +123,25 @@ h1{
 .card {
     background: #FFFFFF;
 }
-.ui {
+.agenda1 {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     color: #000000;
 }
-.uii{
+.agenda2{
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     color: #000000;
 }
-.uu, .uuu{
+.agenda-details1, .agenda-details2{
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     color: #000000;
 }
-.person{
+.grey{
     background: #EFEFEF;
 }
 .persons{
@@ -150,7 +150,7 @@ h1{
     font-weight: bold;
     color: #000000;
 }
-.block-person{
+.grey-white{
     background: #FFFFFF;
 }
 .feedback{
@@ -159,7 +159,7 @@ h1{
     font-weight: normal;
     color: #000000;
 }
-.Ekaterina{
+.ekaterina{
     font-family: Roboto Slab;
     font-style: normal;
     font-weight: bold;
@@ -205,7 +205,7 @@ footer {
     font-weight: normal;
     color: #FFFFFF;
 }
-.logotip{
+.copywrite{
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -213,7 +213,7 @@ footer {
 }
 
   /* начало верстки для мобильного телефона */
-@media (min-width:320px) and (max-width: 991px) {
+@media  screen and (min-width:320px) and (max-width: 991px) {
   
 *{
         margin:0;
@@ -233,13 +233,10 @@ header{
     width: 374px;
     box-sizing:border-box;
 }
-
-/* logo_mobile_black 1 */
-.sinhro {
+.logo-black {
     width: 52.19px;
     height: 30.75px;
 }
-
 .globe{
     position: absolute;
     width: 10.25px;
@@ -286,7 +283,7 @@ header{
     font-size: 10px;
     line-height: 115%;
 }
-.second{
+.begining{
     height: 500px;
 }
 h1{
@@ -340,7 +337,7 @@ h1{
     font-size: 26px;
     line-height: 101.38%;
 }
-.text-block-one{
+.about{
     width: 308.47px;
     height: 225px;
     padding-top:9px;
@@ -349,7 +346,7 @@ h1{
     line-height: 153%;
     box-sizing: border-box;
 }
-.text-block-one p:first-child{
+.about p:first-child{
     margin-bottom:16px;
 }
 .cameraman{
@@ -357,7 +354,7 @@ h1{
     margin-left: 67px;
     margin-top: 15px;
     }
-.tt {
+.menu {
     width: 250px;
     height:140px;   
     font-size: 12px;
@@ -370,31 +367,22 @@ h1{
 .block-app{
     display:none;
 }
-.tt div{
+.menu div{
     width: 86px;
     padding-right:33px;
 }
-.tt h4{  
+.menu h4{  
     font-size: 12px;
     line-height: 130%;
 }
-.tt p{
+.menu p{
     width: 86px;
     height: 18px;
     font-size: 10px;
     line-height: 130%;
     margin-top:5px;
 }
-.about{
-    position: absolute;
-    width: 308.47px;
-    height: 174.27px;
-    left: 36px;
-    top: 687.72px;   
-    font-size: 12px;
-    line-height: 150%;
-}
-.forma{
+.format-head{
     height: 43.34px;    
     font-size: 26px;
     line-height: 101.38%;      
@@ -417,10 +405,10 @@ h1{
     line-height: 130%;
     margin-top: 5px;   
 }
-.n{
+.format1{
     width: 170px;
 }
-.nn{
+.format2{
     width: 170px;
 }
 .whats-new{
@@ -471,22 +459,22 @@ h1{
 .painters img {
         width: 185.92px;
     }
-.ui {   
+.agenda1 {   
     font-size: 14px;
     line-height: 130%;
 }
-.uii{
+.agenda2{
     font-size: 14px;
     line-height: 97%;
 }
-.uu, .uuu{
+.agenda-details1, .agenda-details2{
     font-size: 12px;
     line-height: 130%;
 }
 
 /*серый блок*/
-.person{
-    width: 373px;
+.grey{
+    width:991px;
     height: 423px;
     padding: 42px 32px 53px 33px;
     box-sizing: border-box;
@@ -499,7 +487,7 @@ h1{
     line-height: 101.38%;
     margin-bottom:11px;
 }
-.block-person{
+.grey-white{
     width: 308px;
     height: 248px;
     box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
@@ -536,7 +524,7 @@ h1{
 
 /* блок мятного цвета */
 .money{
-    width: 373px;
+    width:991px;
     height: 362px;
     padding-top: 61px;
     padding-left: 31px;
@@ -579,8 +567,7 @@ h1{
 }
 /* блок черного цвета  */
 footer {
-   
-    width: 373px;
+    width:991px;
     height: 251px;
     padding:23px 0 0 36px;
     box-sizing: border-box;
@@ -589,7 +576,7 @@ footer {
     line-height: 101.38%;
 
 }
-.sinhro-white{
+.logo-white{
     width:53.59px;
 }
 .icons img{
@@ -608,7 +595,7 @@ footer {
 .mail{
     margin-bottom:53px;
 }
-.logotip{   
+.copywrite{   
     font-size: 10px;
     line-height: 101.38%;
 }
@@ -626,13 +613,13 @@ header{
     }
 
 .wrapper1, .wrapper2{
-        padding-left:122px;
+    padding-left:122px;
     }
-.sinhro {
-        width: 112px;
-        height: 66px;
-        margin-top: 21px;
-      }
+.logo-black {
+    width: 112px;
+    height: 66px;
+    margin-top: 21px;
+    }
 .globe{
     position: absolute;
     width: 22px;
@@ -681,10 +668,8 @@ header{
     font-size: 20px;
     line-height: 115%;
 }
-.second{
+.begining{
     height: 769px;
-    /* display: flex; */
-    /* justify-content: space-between; */
 }
 h1 {
       font-size: 80px;
@@ -711,8 +696,7 @@ h1 {
       width: 305px;
       height: 376px;
       margin-right: 123.48px;
-    }
-  
+    } 
 .blue {
       width: 483.63px;
       height: 200.02px;
@@ -723,423 +707,649 @@ h1 {
       padding-left:10px;
       box-sizing: border-box;
     }
-  
-    .blue div {
+.blue div {
       width: 430.59px;
       height: 113px;
-      margin-top: 19.26px;
-      margin-right: 20.02px;
-      margin-bottom: 20.74px;
-      margin-left: 16.03px;
+      margin: 19.26px 20.02px 20.74px 16.03px;
     }
-  
-    .blue p {
+.blue p {
       font-size: 25px;
       line-height: 130%;
       margin: 0;
     }
-  
-    .blue span {
+.blue span {
       font-size: 20px;
       line-height: 130%;
       text-align: right;
       margin-left: 268px;
     }
-  
-  .course {
+.course {
     font-weight: 700;
     font-size: 55px;
     line-height: 101.4%;
     margin-bottom:20px;
-  }
-  .row2{
+    }
+.row2{
       display:flex;
       flex-direction:row;
       width: 1500px ;
-  }
-  .cameraman{
+    }
+.cameraman{
       width:363px;
       margin-left: 166px;
       margin-top:62px
-
-  }
-    .wrappers {
+    }
+.wrappers {
       margin-right: 88.61px;
       margin-top: 173.36px;
     }
-  
-    .wrappers p {
+.wrappers p {
       font-size: 24px;
       line-height: 150%;
-      color: #000000;
     }
-  
-    .text-block-one {
-      width: 662px;
-      height: 374px;
-    
+.about {
+    width: 662px;
+    height: 374px;   
     }
-    .text-block-one p{
-        font-size: 24px;
-        line-height: 36px;
-        padding-top: 13px;
+.about p{
+    font-size: 24px;
+    line-height: 36px;
+    padding-top: 13px;
     }
-  
-    .logo {
-      width: 315px;
-      height: 314px;
-      margin-top: 170px;
+.logo {
+    width: 315px;
+    height: 314px;
+    margin-top: 170px;
     }
-  
-    .logo-second {
-      width: 211.98px;
-      height: 34.17px;
-      top: 100px;
-      position: absolute;
-      left: 637px;
-      top: 165px;
-      z-index: -1;
+.title {
+    font-size: 55px;
+    line-height: 101.38%;
     }
-  
-    .title {
-
-      font-size: 55px;
-      line-height: 101.38%;
-
+.bigcamera {
+    width: 234px;
+    height: 217px;
+    margin-right: 41px;
+    margin-bottom: 54px;
     }
-  
-    .logo-two {
-      width: 234px;
-      height: 217px;
-      margin-right: 41px;
-      margin-bottom: 54px;
+.menu {
+    display: flex;
+    margin-top: 104px;
+    margin-bottom: 103.09px;
+    position: relative;
     }
-  
-    .tt {
-      display: flex;
-      /* justify-content: space-between; */
-      margin-top: 104px;
-      margin-bottom: 103.09px;
-      /* margin-right: 250px; */
-      position: relative;
+.details1{
+    margin-top:35px;
+    margin-left: 91px;
+    width: 200px;
     }
-  
-    .em {
-      position: absolute;
-      width: 167.46px;
-      height: 18.53px;
-      top: 193px;
-      left: 43px;
-      z-index: -1;
+.details2{
+    margin-top:35px;
+    margin-left: 45px;
+    width: 200px;
     }
-    .tt-details1{
-        margin-top:35px;
-        margin-left: 91px;
-        width: 200px;
+.details3{
+    margin-top:35px;
+    margin-left: 42px;
+    width: 200px;
     }
-    .tt-details2{
-        margin-top:35px;
-        margin-left: 45px;
-        width: 200px;
+.menu h4 { 
+    font-size: 25px;
+    line-height: 130%;
+    margin-bottom:-10px;
     }
-    .tt-details3{
-        margin-top:35px;
-        margin-left: 42px;
-        width: 200px;
+.menu p {  
+    font-size: 18px;
+    line-height: 130%;
     }
-.tt h4 {
-    
-      font-size: 25px;
-      line-height: 130%;
-      margin-bottom:-10px;
-    }
-    .tt p {  
-      font-size: 18px;
-      line-height: 130%;
-    }
-    .forma {
-      font-size: 55px;
-      line-height: 101.38%;
+.format-head {
+    font-size: 55px;
+    line-height: 101.38%;
     } 
-    .format-lessons {
-      display: flex;
-      margin-top: 129px;
-      margin-left:2px;
+.format-lessons {
+    display: flex;
+    margin-top: 129px;
+    margin-left:2px;
     } 
-    .n{
-        width: 233px;
+.format1{
+    width: 233px;
     }
-    .nn{
-        width: 270px; 
-        margin: 0 115px 0 112px;  
+.format2{
+    width: 270px; 
+    margin: 0 115px 0 112px;  
     }
-    .format-lessons span {
-      font-size: 25px;
-      line-height: 114%;
+.format-lessons span {
+    font-size: 25px;
+    line-height: 114%;
     }
-    .format-lessons p {
-      font-size: 18px;
-      line-height: 130%;
-      margin-top:12px;
+.format-lessons p {
+    font-size: 18px;
+    line-height: 130%;
+    margin-top:12px;
     }
-    .whats-new {
-      margin-top: 200.55px;
-      margin-bottom: 59px;
-      font-size: 55px;
-      line-height: 101.38%;
+.whats-new {
+    margin-top: 200.55px;
+    margin-bottom: 59px;
+    font-size: 55px;
+    line-height: 101.38%;
     }
-    ul {
-      margin-top: 16.16px;
-      margin-bottom: 220.66px;
-      margin-left:-21px;
-      width:647px;
+ul {
+    margin: 16.16px 0 220.66px -21px;
+    width:647px;
     }
-  
-    ul li {
-      font-size: 24px;
-      line-height: 153%;
+li {
+    font-size: 24px;
+    line-height: 153%;
+    } 
+.programs {    
+    margin: 0px 239.77px 55.02px 2.08px;
+    font-size: 55px;
+    line-height: 101.38%;
     }
-  
-    .programs {    
-      margin: 0px 239.77px 55.02px 2.08px;
-      font-size: 55px;
-      line-height: 101.38%;
+.painters {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:-35px;
+    margin-top: 132px;
+    width: 1400px;
     }
-  
-    .painters {
-      display: flex;
-      flex-wrap: wrap;
-      margin-left:-35px;
-      margin-top: 132px;
-      width: 1400px;
+.card {
+    width: 399px;
+    height: 328px;
+    border-radius: 30px;
+    box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.2);
+    margin-right: 36px;
+    margin-bottom:43px;
     }
-  
-    .card {
-      width: 399px;
-      height: 328px;
-      border-radius: 30px;
-      box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.2);
-      margin-right: 36px;
-      margin-bottom:43px;
+.card-content {
+    height: 41%;
+    padding: 5%;
+    padding-top: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    } 
+.painters img {
+    width: 399px;
+    height: 160px;
     }
-
-    .card-content {
-      height: 41%;
-      padding: 5%;
-      padding-top: 7px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
+.agenda1 {
+    margin: 0;
+    font-size: 30px;
+    line-height: 130%;
     }
-  
-    .painters img {
-        width: 399px;
-        height: 160px;
+.agenda2 {
+    margin: 0;
+    line-height: 117%;
+    font-size: 30px;
     }
-  
-    .ui {
-      margin: 0;
-      font-size: 30px;
-      line-height: 130%;
+.agenda-details1 {
+    margin: 0;
+    line-height: 130%;
+    width: 25.34vw;
+    font-size: 25px;
     }
-  
-    .uii {
-      margin: 0;
-      line-height: 117%;
-      font-size: 30px;
+.agenda-details2 {
+    margin: 0;
+    line-height: 130%;
+    width: 25.34vw;
+    font-size: 25px;
     }
-    .uu {
-      margin: 0;
-      line-height: 130%;
-      width: 25.34vw;
-      font-size: 25px;
+.grey {      
+    width:1440px;
+    height: 780px;
+    padding-left: 122.97px;
+    padding-top: 45px;   
+    margin-top: 80px;
+    box-sizing: border-box;
     }
-    .uuu {
-      margin: 0;
-      line-height: 130%;
-      width: 25.34vw;
-      font-size: 25px;
+.persons {
+    font-size: 55px;
+    line-height: 101.38%; 
+    margin-bottom:77px;  
     }
-    .person {
-        padding-left: 122.97px;
-        width:1440px;
-        height: 780px;
-        padding-top: 45px;   
-        margin-top: 80px;
-        box-sizing: border-box;
-      }
-    .persons {
-      font-size: 55px;
-      line-height: 101.38%; 
-      margin-bottom:77px;  
+.grey-white {
+    width: 791px;
+    height: 451px;
+    box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
+    border-radius: 17.375px;
+    margin-left: 3.97px;
+    margin-right: 302.9px;
     }
-    .block-person {
-      width: 791px;
-      height: 451px;
-      box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
-      border-radius: 17.375px;
-      margin-left: 3.97px;
-      margin-right: 302.9px;
+.grey-white p {
+    font-size: 20px;
+    line-height: 150%;
+    padding: 37px 46px 0 45px;
+    margin: 0;
     }
-  
-    .block-person p {
-      font-size: 20px;
-      line-height: 150%;
-      padding-top: 37px;
-      padding-left: 45px;
-      padding-right: 46px;
-      margin: 0;
+.girl {
+    width: 190px;
+    height: 169px;
+    margin-left: 26px;
+    margin-top: 34px;
     }
-  
-    .girl {
-      width: 190px;
-      height: 169px;
-      margin-left: 26px;
-      margin-top: 34px;
+.info-about-person {
+    display: flex;
+    } 
+.id-person {
+    margin-top: 64.96px;
+    margin-left: 29.38px;
     }
-  
-    .info-about-person {
-      display: flex;
+.id-person p {
+    font-size: 30px;
+    } 
+.info-about-person p {
+    padding: 0;
     }
-  
-    .id-person {
-      margin-top: 64.96px;
-      margin-left: 29.38px;
+.fb {
+    width: 32px;
+    height: 31px;
+    margin-top: 25px;
     }
-  
-    .id-person p {
-      font-size: 30px;
+.money {
+    padding: 103.67px 237.46px 107.15px 70.66px;
+    width: 1440px;
+    height: 780px;
+    box-sizing: border-box;
+    } 
+.month {
+    margin:73px 0 65.27px 52px;
+    font-size: 55px;
+    line-height: 101.38%;
     }
-  
-    .info-about-person p {
-      padding: 0;
+.price {
+    font-size: 25px;
+    line-height: 101.38%;
+    margin: 10px 0 8px 52px;
     }
-  
-    .fb {
-      width: 32px;
-      height: 31px;
-      margin-top: 25px;
+.count {
+    margin: 0 0 49px 53px;
+    font-size: 80px;
+    line-height: 101.38%;
     }
-  
-    .money {
-
-      padding-left: 70.66px;
-      padding-top: 103.67px;
-      padding-bottom: 107.15px;
-      padding-right: 237.46px;
-      width: 1440px;
-      height: 780px;
-      box-sizing: border-box;
+.info-money {
+    display: flex;
+    margin-left:52px;
     }
-  
-    .month {
-      margin-top: 73px;
-      margin-left:52px;
-      font-size: 55px;
-      line-height: 101.38%;
-      margin-bottom: 65.27px;
-
+.info-money div:nth-child(2) {
+    margin-left: 70.54px;
     }
-  
-    .price {
-      font-size: 25px;
-      line-height: 101.38%;
-      margin-left:52px;
-      margin-top:10px;
-      margin-bottom:8px;
+.big-text {
+    font-size: 25px;
+    line-height: 101.38%;
+    margin-bottom: -3px;
     }
-  
-    .count {
-      margin: 0 0 49px 53px;
-      font-size: 80px;
-      line-height: 101.38%;
+.small-text {
+    font-size: 18px;
+    line-height: 101.38%;
+    width: 294px;
     }
-  
-    .info-money {
-      display: flex;
-      margin-left:52px;
-    }
-  
-    .info-money div:nth-child(2) {
-      margin-left: 70.54px;
-    }
-  
-    .big-text {
-      font-size: 25px;
-      line-height: 101.38%;
-      margin-bottom: -3px;
-    }
-  
-    .small-text {
-      font-size: 18px;
-      line-height: 101.38%;
-      width: 294px;
-    }
-  
-    footer {
-      padding-top: 29px;
-      padding-left: 70.66px;
-      padding-right: 85px;
-      padding-bottom: 13.32px;
-    }
-  footer{
+footer {
+    padding: 29px 85px 13.32px 70.66px;
     width: 1440px;
     height: 390px;
     box-sizing: border-box;
-  }
-    .adress {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      /* justify-content: space-between; */
     }
-  
-    .adress span {
-      /* margin-left: 13px; */
-      font-size: 25px;
+.black {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     }
-  
-    .logotip {
-      margin-top: 140px;
-      margin-left: 51px;
-      font-size: 18px;
+.black span {
+    font-size: 25px;
     }
-  
-    .icons {
-      margin-left: 40px;
-      margin-right:655px;
+.copywrite {
+    margin-top: 140px;
+    margin-left: 51px;
+    font-size: 18px;
     }
-  
-    .icons img {
-      margin-top: 26.38px;
-      width: 33px;
-      /* height: 33px; */
-      margin-left: 13px;
-    
+.icons {
+    margin-left: 40px;
+    margin-right:655px;
+    }  
+.icons img {
+    width: 33px;
+    margin-top: 26.38px;
+    margin-left: 13px;   
     }
-    .vk{
-        margin-right: 10px;
+.vk{
+    margin-right: 10px;
     }
-    .fb-white{
-        margin-right:4px;
+.fb-white{
+    margin-right:4px;
     }
-    .contact{
-      width: 27px;
-      /* height: 27px; */
-      /* font-size: 25px; */
-      margin-right: 18px;
+.contact{
+    width: 27px;
+    margin-right: 18px;
+    } 
+.phone{
+    margin-bottom:14px;
+    margin-top: 23px;
     }
-   
-  
-    .phone{
-        margin-bottom:14px;
-        margin-top: 23px;
-    }
-    .sinhro-white {
-      width: 115px;
-      height: 68px;
-      margin-left: 52px;
-      margin-top: 21px;
+.logo-white {
+    width: 115px;
+    height: 68px;
+    margin-left: 52px;
+    margin-top: 21px;
     }
   }
+
+  /* здесь стили для планшета */
+@media screen and (min-width: 992px) and (max-width: 1279px) {
  
+.wrapper {
+    height: 100%;
+    }
+.wrapper1, .wrapper2 {
+    padding-left: 70.06px;
+    }
+.logo-black {
+    width: 64.86px;
+    height: 38.23px;
+    margin-top: 22px;
+    }
+.list-one {
+    display: flex;
+    margin-top: 57.92px;
+    }
+.clock {
+    margin-left: 14.48px;
+    }
+.ops{
+    width: 95px;
+    display: flex;
+    flex-direction: row;
+    }
+.list-one img {
+    width: 12.74px;
+    height: 12.74px;
+    } 
+.list-one p {
+    font-size: 12px;
+    line-height: 115%;
+    margin-left: 5px;
+    margin-top:0;
+    }
+h1 {
+    font-size: 46px;
+    line-height: 101.38%;
+    margin-top: 7.51px;
+    margin-bottom: 0;
+    } 
+.row{
+    display:flex;
+    flex-direction:row;
+    width: 770px ;
+    }
+.description {
+    font-size: 12px;
+    line-height: 150%;
+    width:249px;
+    }
+.noroot {
+    width: 176.07px;
+    height: 206.18px;
+    margin-right: 142.48px;
+    }
+.blue {    
+    width: 280.11px; 
+    height: 115.83px;
+    margin-left: 167px;
+    padding: 11.15px 0 0 15.08px;
+    box-sizing: border-box;
+    } 
+.blue-text {
+    width: 249.38px; 
+    height: 76.45px; 
+    }
+.blue p {
+    font-size: 14px;
+    line-height: 130%;
+    margin: 0;
+    }
+.blue span {
+    font-size: 12px;
+    line-height: 130%;
+    text-align: right;
+    margin-left: 134px;
+    }
+.row2 {
+    margin-right: 88.61px;
+    display: flex;
+    }
+.row2 p {
+    font-size: 14px;
+    line-height: 150%;
+    }
+.about {
+    width: 383.41px;
+    height: 216.61px;
+    }
+.logo {
+    width: 181.86px;
+    height: 182.44px;
+    }
+.cameraman {
+    width: 181.86px;
+    height: 182.44px;
+    margin-left:110.04px;
+    }
+.title {
+    font-size: 55px;
+    line-height: 101.38%;
+    }
+.bigcamera {
+    width: 134px;
+    height: 117px;
+    }
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 54.44px;
+    margin-bottom: 103.09px;
+    margin-right: 250px;
+    position: relative;
+    }
+.menu h3 {
+    font-size: 15px;
+    line-height: 130%;
+    }
+.menu p {
+    font-size: 11px;
+    line-height: 130%;
+    }
+.format-head {
+    font-size: 32px;
+    line-height: 101.38%;
+    margin-top: 0;
+    }
+.format-lessons {
+    display: flex;
+    margin-left: -44px;
+    }
+.format-lessons div {
+    margin-left: 50px;
+    }
+.format-lessons span {
+    font-size: 15px;
+    line-height: 130%;
+    }
+.format-lessons p {
+    font-size: 11px;
+    line-height: 130%;
+    }
+.format1{
+    width:151px;
+    }
+.format2{
+    width:172px;
+    }
+.whats-new {
+    margin-top: 144.55px;
+    margin-bottom: 0;
+    font-size: 32px;
+    line-height: 101.38%;
+    }
+ul {
+    margin-top: 12.16px;
+    margin-bottom: 143.66px;
+    width: 383.81px;
+    }
+li {
+    font-size: 14px;
+    line-height: 150%;
+    }
+.programs {
+    margin: 0px 239.77px 55.02px 70.08px;
+    font-size: 32px;
+    line-height: 101.38%;
+    }
+.painters {
+    padding: 2.5%;
+    display: flex;
+    flex-wrap: wrap;
+    }
+.card {
+    margin: 2.27vw;
+    width: 26.5vw;
+    height: 22vw;
+    border-radius: 8%;
+    box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.2);
+    }
+.card-content {
+    height: 41%;
+    padding: 5%;
+    padding-top: 2.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+.painters img {
+    width: 26.5vw;
+    }
+.agenda1 {
+    margin: 0;
+    font-size: 2.08vw;
+    line-height: 130%;
+    }
+.agenda2 {
+    margin: 0;
+    line-height: 130%;
+    font-size: 2.08vw;
+    }
+.agenda-details1 {
+    margin: 0;
+    line-height: 130%;
+    width: 25.34vw;
+    font-size: 1.74vw;
+    }
+.agenda-details2 {
+    margin: 0;
+    line-height: 130%;
+    width: 25.34vw;
+    font-size: 1.74vw;
+    }
+.persons {
+    font-size: 32px;
+    line-height: 101.38%;
+    padding: 52.7px 191.7px 19.69px -2px;
+    }
+.grey {
+    padding-bottom: 64.29px;
+    padding-left: 72.97px;
+    }
+.grey-white {
+    width: 458.12px;
+    height: 261.2px;
+    box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
+    border-radius: 17.375px;
+    margin-right: 302.9px;
+    }
+.grey-white p {
+    font-size: 12px;
+    line-height: 150%;
+    padding: 23.17px 26.64px 6px 26.06px;
+    margin: 0;
+    }
+.girl {
+    width: 110.04px;
+    height: 97.88px;
+    margin-left: 15.06px;
+    margin-bottom: 16.8px;
+    }
+.info-about-person {
+    display: flex;
+    }
+.id-person {
+    margin-top: 28.96px;
+    margin-left: 17.38px;
+    }
+.info-about-person p {
+    padding: 0;
+    }
+.fb {
+    width: 18.53px;
+    height: 17.95px;
+    margin-top: 3px;
+    }
+.money {
+    padding: 103.67px 237.46px 107.15px 70.66px;
+    }
+.month {
+    margin-top: 0;
+    font-size: 32px;
+    line-height: 101.38%;
+    margin-bottom: 31.27px;
+    }
+.price {
+    font-size: 14px;
+    line-height: 101.38%;
+    margin: 0;
+    }
+.count {
+    margin-top: 0;
+    font-size: 46px;
+    line-height: 101.38%;
+    }
+.info-money {
+    display: flex;
+    }
+.info-money div:nth-child(2) {
+    margin-left: 40.54px;
+    }
+.big-text {
+    font-size: 14px;
+    line-height: 101.38%;
+    }
+.small-text {
+    font-size: 10px;
+    line-height: 101.38%;
+    }
+footer {
+    padding: 29px 85px 13.32px 70.66px;
+    }
+.black {
+    display: flex;
+    justify-content: space-between;
+    }
+.black span {
+    margin-left: 13px;
+    }
+.copywrite {
+    margin-top: 85px;
+    }
+.icons {
+    margin-left: -12px;
+    }
+.icons img {
+    margin-top: 17.38px;
+    width: 19px;
+    height: 19px;
+    margin-left: 12px;
+    }
+.contact {
+    width: 15.64px;
+    height: 15.64px;
+    }
+}
+    
+    
