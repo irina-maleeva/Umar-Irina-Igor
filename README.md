@@ -6,4 +6,6 @@
   планшет — размер экрана от 992px до 1279px;
   смартфон — размер экрана от 320px до 991px.
 Ссылка на исходный макет в figma:
-https://www.figma.com/file/69KkWov2CX66UaxNFRpxN4/m1-project-acb-part-time?node-id=0%3A1 
+https://www.figma.com/file/69KkWov2CX66UaxNFRpxN4/m1-project-acb-part-time?node-id=0%3A1
+
+Моя роль в проекте: верстка одного из размеров + финальная сборка всех размеров вместе.
